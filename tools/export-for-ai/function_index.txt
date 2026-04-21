@@ -1,0 +1,2798 @@
+# Function Index
+# Total exported functions: 218
+#================================================================================
+
+================================================================================
+Function: sub_49CF5
+Address: 0x49cf5
+File: 49CF5.c
+
+Called by (1 callers):
+  - 0x46306 (__sys_fini_387_emulator)
+
+Calls: none
+
+================================================================================
+Function: sub_4A314
+Address: 0x4a314
+File: 4A314.c
+
+Called by (3 callers):
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+  - 0x4bf8b (sub_4BF8B) -> 4BF8B.c
+
+Calls (1 callees):
+  - 0x3d5be (nullsub_3)
+
+================================================================================
+Function: sub_4A362
+Address: 0x4a362
+File: 4A362.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A368
+Address: 0x4a368
+File: 4A368.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A36E
+Address: 0x4a36e
+File: 4A36E.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A374
+Address: 0x4a374
+File: 4A374.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A37A
+Address: 0x4a37a
+File: 4A37A.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A382
+Address: 0x4a382
+File: 4A382.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A388
+Address: 0x4a388
+File: 4A388.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A38E
+Address: 0x4a38e
+File: 4A38E.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A394
+Address: 0x4a394
+File: 4A394.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A39C
+Address: 0x4a39c
+File: 4A39C.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3A4
+Address: 0x4a3a4
+File: 4A3A4.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3AC
+Address: 0x4a3ac
+File: 4A3AC.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3B4
+Address: 0x4a3b4
+File: 4A3B4.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3BE
+Address: 0x4a3be
+File: 4A3BE.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3C8
+Address: 0x4a3c8
+File: 4A3C8.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3D0
+Address: 0x4a3d0
+File: 4A3D0.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3D8
+Address: 0x4a3d8
+File: 4A3D8.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3E1
+Address: 0x4a3e1
+File: 4A3E1.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3EA
+Address: 0x4a3ea
+File: 4A3EA.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3F3
+Address: 0x4a3f3
+File: 4A3F3.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A3FC
+Address: 0x4a3fc
+File: 4A3FC.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A407
+Address: 0x4a407
+File: 4A407.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A412
+Address: 0x4a412
+File: 4A412.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A41B
+Address: 0x4a41b
+File: 4A41B.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls: none
+
+================================================================================
+Function: sub_4A424
+Address: 0x4a424
+File: 4A424.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (26 callees):
+  - 0x4a362 (sub_4A362) -> 4A362.c
+  - 0x4a368 (sub_4A368) -> 4A368.c
+  - 0x4a36e (sub_4A36E) -> 4A36E.c
+  - 0x4a374 (sub_4A374) -> 4A374.c
+  - 0x4a37a (sub_4A37A) -> 4A37A.c
+  - 0x4a382 (sub_4A382) -> 4A382.c
+  - 0x4a388 (sub_4A388) -> 4A388.c
+  - 0x4a38e (sub_4A38E) -> 4A38E.c
+  - 0x4a394 (sub_4A394) -> 4A394.c
+  - 0x4a39c (sub_4A39C) -> 4A39C.c
+  - 0x4a3a4 (sub_4A3A4) -> 4A3A4.c
+  - 0x4a3ac (sub_4A3AC) -> 4A3AC.c
+  - 0x4a3b4 (sub_4A3B4) -> 4A3B4.c
+  - 0x4a3be (sub_4A3BE) -> 4A3BE.c
+  - 0x4a3c8 (sub_4A3C8) -> 4A3C8.c
+  - 0x4a3d0 (sub_4A3D0) -> 4A3D0.c
+  - 0x4a3d8 (sub_4A3D8) -> 4A3D8.c
+  - 0x4a3e1 (sub_4A3E1) -> 4A3E1.c
+  - 0x4a3ea (sub_4A3EA) -> 4A3EA.c
+  - 0x4a3f3 (sub_4A3F3) -> 4A3F3.c
+  - 0x4a3fc (sub_4A3FC) -> 4A3FC.c
+  - 0x4a407 (sub_4A407) -> 4A407.c
+  - 0x4a412 (sub_4A412) -> 4A412.c
+  - 0x4a41b (sub_4A41B) -> 4A41B.c
+  - 0x4a461 (sub_4A461) -> 4A461.c
+  - 0x4ac6a (sub_4AC6A) -> 4AC6A.c
+
+================================================================================
+Function: sub_4A45C
+Address: 0x4a45c
+File: 4A45C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A461
+Address: 0x4a461
+File: 4A461.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls (2 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A480
+Address: 0x4a480
+File: 4A480.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A49F
+Address: 0x4a49f
+File: 4A49F.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A4BB
+Address: 0x4a4bb
+File: 4A4BB.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A4D7
+Address: 0x4a4d7
+File: 4A4D7.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A4F6
+Address: 0x4a4f6
+File: 4A4F6.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A515
+Address: 0x4a515
+File: 4A515.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A534
+Address: 0x4a534
+File: 4A534.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A553
+Address: 0x4a553
+File: 4A553.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4c052 (sub_4C052) -> 4C052.c
+
+================================================================================
+Function: sub_4A58D
+Address: 0x4a58d
+File: 4A58D.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bf0c (sub_4BF0C) -> 4BF0C.c
+
+================================================================================
+Function: sub_4A59E
+Address: 0x4a59e
+File: 4A59E.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bf0c (sub_4BF0C) -> 4BF0C.c
+
+================================================================================
+Function: sub_4A5AF
+Address: 0x4a5af
+File: 4A5AF.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A5CD
+Address: 0x4a5cd
+File: 4A5CD.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A60D
+Address: 0x4a60d
+File: 4A60D.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A621
+Address: 0x4a621
+File: 4A621.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A62F
+Address: 0x4a62f
+File: 4A62F.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A64E
+Address: 0x4a64e
+File: 4A64E.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A66D
+Address: 0x4a66d
+File: 4A66D.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A689
+Address: 0x4a689
+File: 4A689.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A6A5
+Address: 0x4a6a5
+File: 4A6A5.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A6C4
+Address: 0x4a6c4
+File: 4A6C4.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A6E3
+Address: 0x4a6e3
+File: 4A6E3.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A702
+Address: 0x4a702
+File: 4A702.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A721
+Address: 0x4a721
+File: 4A721.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4A75B
+Address: 0x4a75b
+File: 4A75B.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bdd7 (sub_4BDD7) -> 4BDD7.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+
+================================================================================
+Function: sub_4A797
+Address: 0x4a797
+File: 4A797.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bdd7 (sub_4BDD7) -> 4BDD7.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+
+================================================================================
+Function: sub_4A7BB
+Address: 0x4a7bb
+File: 4A7BB.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A7DE
+Address: 0x4a7de
+File: 4A7DE.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A801
+Address: 0x4a801
+File: 4A801.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A821
+Address: 0x4a821
+File: 4A821.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A841
+Address: 0x4a841
+File: 4A841.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A864
+Address: 0x4a864
+File: 4A864.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A887
+Address: 0x4a887
+File: 4A887.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A8AA
+Address: 0x4a8aa
+File: 4A8AA.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A8CD
+Address: 0x4a8cd
+File: 4A8CD.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A914
+Address: 0x4a914
+File: 4A914.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4be8c (sub_4BE8C) -> 4BE8C.c
+
+================================================================================
+Function: sub_4A952
+Address: 0x4a952
+File: 4A952.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bf8b (sub_4BF8B) -> 4BF8B.c
+
+================================================================================
+Function: sub_4A967
+Address: 0x4a967
+File: 4A967.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A985
+Address: 0x4a985
+File: 4A985.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bf8b (sub_4BF8B) -> 4BF8B.c
+
+================================================================================
+Function: sub_4A99A
+Address: 0x4a99a
+File: 4A99A.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4A9E1
+Address: 0x4a9e1
+File: 4A9E1.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AA0C
+Address: 0x4aa0c
+File: 4AA0C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AA1A
+Address: 0x4aa1a
+File: 4AA1A.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AA3B
+Address: 0x4aa3b
+File: 4AA3B.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AA5C
+Address: 0x4aa5c
+File: 4AA5C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AA7A
+Address: 0x4aa7a
+File: 4AA7A.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AA98
+Address: 0x4aa98
+File: 4AA98.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AAB9
+Address: 0x4aab9
+File: 4AAB9.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AADA
+Address: 0x4aada
+File: 4AADA.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AAFB
+Address: 0x4aafb
+File: 4AAFB.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AB1C
+Address: 0x4ab1c
+File: 4AB1C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+================================================================================
+Function: sub_4AB58
+Address: 0x4ab58
+File: 4AB58.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bdd7 (sub_4BDD7) -> 4BDD7.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+
+================================================================================
+Function: sub_4ABA0
+Address: 0x4aba0
+File: 4ABA0.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bdd7 (sub_4BDD7) -> 4BDD7.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+
+================================================================================
+Function: sub_4ABD0
+Address: 0x4abd0
+File: 4ABD0.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4ABD5
+Address: 0x4abd5
+File: 4ABD5.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4be57 (sub_4BE57) -> 4BE57.c
+
+================================================================================
+Function: sub_4AC0F
+Address: 0x4ac0f
+File: 4AC0F.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AC14
+Address: 0x4ac14
+File: 4AC14.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4bddc (sub_4BDDC) -> 4BDDC.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+
+================================================================================
+Function: sub_4AC38
+Address: 0x4ac38
+File: 4AC38.c
+
+Called by (8 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4ac3d (sub_4AC3D) -> 4AC3D.c
+  - 0x4ad7c (sub_4AD7C) -> 4AD7C.c
+  - 0x4adfd (sub_4ADFD) -> 4ADFD.c
+  - 0x4b23a (sub_4B23A) -> 4B23A.c
+  - 0x4b2c3 (sub_4B2C3) -> 4B2C3.c
+  - 0x4b4cc (sub_4B4CC) -> 4B4CC.c
+  - 0x4b681 (sub_4B681) -> 4B681.c
+
+Calls: none
+
+================================================================================
+Function: sub_4AC3D
+Address: 0x4ac3d
+File: 4AC3D.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AC6A
+Address: 0x4ac6a
+File: 4AC6A.c
+
+Called by (2 callers):
+  - 0x4a104 (sub_4A104)
+  - 0x4a424 (sub_4A424) -> 4A424.c
+
+Calls (1 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+
+================================================================================
+Function: sub_4AC7F
+Address: 0x4ac7f
+File: 4AC7F.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+
+================================================================================
+Function: sub_4AC94
+Address: 0x4ac94
+File: 4AC94.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4ACA6
+Address: 0x4aca6
+File: 4ACA6.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4ACB8
+Address: 0x4acb8
+File: 4ACB8.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4ACCD
+Address: 0x4accd
+File: 4ACCD.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4ACE2
+Address: 0x4ace2
+File: 4ACE2.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4ACF7
+Address: 0x4acf7
+File: 4ACF7.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4AD0C
+Address: 0x4ad0c
+File: 4AD0C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AD54
+Address: 0x4ad54
+File: 4AD54.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4AD7C
+Address: 0x4ad7c
+File: 4AD7C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (2 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+  - 0x4c59e (sub_4C59E) -> 4C59E.c
+
+================================================================================
+Function: sub_4ADFD
+Address: 0x4adfd
+File: 4ADFD.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4B018
+Address: 0x4b018
+File: 4B018.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (3 callees):
+  - 0x4c6a5 (sub_4C6A5) -> 4C6A5.c
+  - 0x4cb8e (sub_4CB8E) -> 4CB8E.c
+  - 0x4cbc4 (sub_4CBC4) -> 4CBC4.c
+
+================================================================================
+Function: sub_4B122
+Address: 0x4b122
+File: 4B122.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (5 callees):
+  - 0x4c4bd (sub_4C4BD) -> 4C4BD.c
+  - 0x4c68c (sub_4C68C) -> 4C68C.c
+  - 0x4cb77 (sub_4CB77) -> 4CB77.c
+  - 0x4cb81 (sub_4CB81) -> 4CB81.c
+  - 0x4cd98 (sub_4CD98) -> 4CD98.c
+
+================================================================================
+Function: sub_4B23A
+Address: 0x4b23a
+File: 4B23A.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4B2C3
+Address: 0x4b2c3
+File: 4B2C3.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4B31D
+Address: 0x4b31d
+File: 4B31D.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+
+================================================================================
+Function: sub_4B332
+Address: 0x4b332
+File: 4B332.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+
+================================================================================
+Function: sub_4B347
+Address: 0x4b347
+File: 4B347.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4B35C
+Address: 0x4b35c
+File: 4B35C.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4B371
+Address: 0x4b371
+File: 4B371.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4B386
+Address: 0x4b386
+File: 4B386.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4B39B
+Address: 0x4b39b
+File: 4B39B.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4B3BA
+Address: 0x4b3ba
+File: 4B3BA.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4B3E6
+Address: 0x4b3e6
+File: 4B3E6.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4B3F8
+Address: 0x4b3f8
+File: 4B3F8.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4B40A
+Address: 0x4b40a
+File: 4B40A.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls: none
+
+================================================================================
+Function: sub_4B436
+Address: 0x4b436
+File: 4B436.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+
+================================================================================
+Function: sub_4B481
+Address: 0x4b481
+File: 4B481.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+
+================================================================================
+Function: sub_4B4CC
+Address: 0x4b4cc
+File: 4B4CC.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b9ee (sub_4B9EE) -> 4B9EE.c
+
+================================================================================
+Function: sub_4B555
+Address: 0x4b555
+File: 4B555.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4B5A0
+Address: 0x4b5a0
+File: 4B5A0.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4b81a (sub_4B81A) -> 4B81A.c
+
+================================================================================
+Function: sub_4B5EB
+Address: 0x4b5eb
+File: 4B5EB.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4B636
+Address: 0x4b636
+File: 4B636.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (1 callees):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+
+================================================================================
+Function: sub_4B681
+Address: 0x4b681
+File: 4B681.c
+
+Called by (1 callers):
+  - 0x4a104 (sub_4A104)
+
+Calls (4 callees):
+  - 0x4bdd7 (sub_4BDD7) -> 4BDD7.c
+  - 0x4c117 (sub_4C117) -> 4C117.c
+  - 0x4c2a4 (sub_4C2A4) -> 4C2A4.c
+  - 0x4c4bd (sub_4C4BD) -> 4C4BD.c
+
+================================================================================
+Function: sub_4B81A
+Address: 0x4b81a
+File: 4B81A.c
+
+Called by (14 callers):
+  - 0x4a4d7 (sub_4A4D7) -> 4A4D7.c
+  - 0x4a4f6 (sub_4A4F6) -> 4A4F6.c
+  - 0x4a6a5 (sub_4A6A5) -> 4A6A5.c
+  - 0x4a6c4 (sub_4A6C4) -> 4A6C4.c
+  - 0x4a841 (sub_4A841) -> 4A841.c
+  - 0x4a864 (sub_4A864) -> 4A864.c
+  - 0x4aa98 (sub_4AA98) -> 4AA98.c
+  - 0x4aab9 (sub_4AAB9) -> 4AAB9.c
+  - 0x4acb8 (sub_4ACB8) -> 4ACB8.c
+  - 0x4accd (sub_4ACCD) -> 4ACCD.c
+  - 0x4b347 (sub_4B347) -> 4B347.c
+  - 0x4b35c (sub_4B35C) -> 4B35C.c
+  - 0x4b555 (sub_4B555) -> 4B555.c
+  - 0x4b5a0 (sub_4B5A0) -> 4B5A0.c
+
+Calls: none
+
+================================================================================
+Function: sub_4B828
+Address: 0x4b828
+File: 4B828.c
+
+Called by (7 callers):
+  - 0x4a461 (sub_4A461) -> 4A461.c
+  - 0x4a62f (sub_4A62F) -> 4A62F.c
+  - 0x4a7bb (sub_4A7BB) -> 4A7BB.c
+  - 0x4aa1a (sub_4AA1A) -> 4AA1A.c
+  - 0x4ac6a (sub_4AC6A) -> 4AC6A.c
+  - 0x4b31d (sub_4B31D) -> 4B31D.c
+  - 0x4b436 (sub_4B436) -> 4B436.c
+
+Calls (1 callees):
+  - 0x4b882 (sub_4B882) -> 4B882.c
+
+================================================================================
+Function: sub_4B852
+Address: 0x4b852
+File: 4B852.c
+
+Called by (5 callers):
+  - 0x4c2a4 (sub_4C2A4) -> 4C2A4.c
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+  - 0x4c68c (sub_4C68C) -> 4C68C.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+  - 0x4cbc4 (sub_4CBC4) -> 4CBC4.c
+
+Calls (1 callees):
+  - 0x4b882 (sub_4B882) -> 4B882.c
+
+================================================================================
+Function: sub_4B882
+Address: 0x4b882
+File: 4B882.c
+
+Called by (6 callers):
+  - 0x4b828 (sub_4B828) -> 4B828.c
+  - 0x4b852 (sub_4B852) -> 4B852.c
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+  - 0x4cbc4 (sub_4CBC4) -> 4CBC4.c
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+
+Calls: none
+
+================================================================================
+Function: sub_4B9EE
+Address: 0x4b9ee
+File: 4B9EE.c
+
+Called by (15 callers):
+  - 0x4a49f (sub_4A49F) -> 4A49F.c
+  - 0x4a4bb (sub_4A4BB) -> 4A4BB.c
+  - 0x4a66d (sub_4A66D) -> 4A66D.c
+  - 0x4a689 (sub_4A689) -> 4A689.c
+  - 0x4a801 (sub_4A801) -> 4A801.c
+  - 0x4a821 (sub_4A821) -> 4A821.c
+  - 0x4aa5c (sub_4AA5C) -> 4AA5C.c
+  - 0x4aa7a (sub_4AA7A) -> 4AA7A.c
+  - 0x4ac94 (sub_4AC94) -> 4AC94.c
+  - 0x4aca6 (sub_4ACA6) -> 4ACA6.c
+  - 0x4ad7c (sub_4AD7C) -> 4AD7C.c
+  - 0x4b23a (sub_4B23A) -> 4B23A.c
+  - 0x4b3e6 (sub_4B3E6) -> 4B3E6.c
+  - 0x4b3f8 (sub_4B3F8) -> 4B3F8.c
+  - 0x4b4cc (sub_4B4CC) -> 4B4CC.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BA87
+Address: 0x4ba87
+File: 4BA87.c
+
+Called by (15 callers):
+  - 0x4a515 (sub_4A515) -> 4A515.c
+  - 0x4a534 (sub_4A534) -> 4A534.c
+  - 0x4a6e3 (sub_4A6E3) -> 4A6E3.c
+  - 0x4a702 (sub_4A702) -> 4A702.c
+  - 0x4a887 (sub_4A887) -> 4A887.c
+  - 0x4a8aa (sub_4A8AA) -> 4A8AA.c
+  - 0x4aada (sub_4AADA) -> 4AADA.c
+  - 0x4aafb (sub_4AAFB) -> 4AAFB.c
+  - 0x4ace2 (sub_4ACE2) -> 4ACE2.c
+  - 0x4acf7 (sub_4ACF7) -> 4ACF7.c
+  - 0x4b371 (sub_4B371) -> 4B371.c
+  - 0x4b386 (sub_4B386) -> 4B386.c
+  - 0x4b5eb (sub_4B5EB) -> 4B5EB.c
+  - 0x4b636 (sub_4B636) -> 4B636.c
+  - 0x4c2a4 (sub_4C2A4) -> 4C2A4.c
+
+Calls (1 callees):
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+
+================================================================================
+Function: sub_4BAB1
+Address: 0x4bab1
+File: 4BAB1.c
+
+Called by (5 callers):
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+  - 0x4cbc4 (sub_4CBC4) -> 4CBC4.c
+
+Calls (1 callees):
+  - 0x4a314 (sub_4A314) -> 4A314.c
+
+================================================================================
+Function: sub_4BC5C
+Address: 0x4bc5c
+File: 4BC5C.c
+
+Called by (8 callers):
+  - 0x4a480 (sub_4A480) -> 4A480.c
+  - 0x4a64e (sub_4A64E) -> 4A64E.c
+  - 0x4a7de (sub_4A7DE) -> 4A7DE.c
+  - 0x4aa3b (sub_4AA3B) -> 4AA3B.c
+  - 0x4ac7f (sub_4AC7F) -> 4AC7F.c
+  - 0x4b332 (sub_4B332) -> 4B332.c
+  - 0x4b481 (sub_4B481) -> 4B481.c
+  - 0x4c6a5 (sub_4C6A5) -> 4C6A5.c
+
+Calls (1 callees):
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+
+================================================================================
+Function: sub_4BC86
+Address: 0x4bc86
+File: 4BC86.c
+
+Called by (8 callers):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+  - 0x4c6a5 (sub_4C6A5) -> 4C6A5.c
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+  - 0x4cbc4 (sub_4CBC4) -> 4CBC4.c
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+  - 0x4ced6 (sub_4CED6) -> 4CED6.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BD82
+Address: 0x4bd82
+File: 4BD82.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4BD87
+Address: 0x4bd87
+File: 4BD87.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4BDD7
+Address: 0x4bdd7
+File: 4BDD7.c
+
+Called by (5 callers):
+  - 0x4a75b (sub_4A75B) -> 4A75B.c
+  - 0x4a797 (sub_4A797) -> 4A797.c
+  - 0x4ab58 (sub_4AB58) -> 4AB58.c
+  - 0x4aba0 (sub_4ABA0) -> 4ABA0.c
+  - 0x4b681 (sub_4B681) -> 4B681.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BDDC
+Address: 0x4bddc
+File: 4BDDC.c
+
+Called by (1 callers):
+  - 0x4ac14 (sub_4AC14) -> 4AC14.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BE46
+Address: 0x4be46
+File: 4BE46.c
+
+Called by (19 callers):
+  - 0x4a62f (sub_4A62F) -> 4A62F.c
+  - 0x4a64e (sub_4A64E) -> 4A64E.c
+  - 0x4a66d (sub_4A66D) -> 4A66D.c
+  - 0x4a689 (sub_4A689) -> 4A689.c
+  - 0x4a6a5 (sub_4A6A5) -> 4A6A5.c
+  - 0x4a6c4 (sub_4A6C4) -> 4A6C4.c
+  - 0x4a6e3 (sub_4A6E3) -> 4A6E3.c
+  - 0x4a702 (sub_4A702) -> 4A702.c
+  - 0x4a721 (sub_4A721) -> 4A721.c
+  - 0x4aa1a (sub_4AA1A) -> 4AA1A.c
+  - 0x4aa3b (sub_4AA3B) -> 4AA3B.c
+  - 0x4aa5c (sub_4AA5C) -> 4AA5C.c
+  - 0x4aa7a (sub_4AA7A) -> 4AA7A.c
+  - 0x4aa98 (sub_4AA98) -> 4AA98.c
+  - 0x4aab9 (sub_4AAB9) -> 4AAB9.c
+  - 0x4aada (sub_4AADA) -> 4AADA.c
+  - 0x4aafb (sub_4AAFB) -> 4AAFB.c
+  - 0x4ab1c (sub_4AB1C) -> 4AB1C.c
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BE57
+Address: 0x4be57
+File: 4BE57.c
+
+Called by (2 callers):
+  - 0x4abd5 (sub_4ABD5) -> 4ABD5.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BE8C
+Address: 0x4be8c
+File: 4BE8C.c
+
+Called by (9 callers):
+  - 0x4a7bb (sub_4A7BB) -> 4A7BB.c
+  - 0x4a7de (sub_4A7DE) -> 4A7DE.c
+  - 0x4a801 (sub_4A801) -> 4A801.c
+  - 0x4a821 (sub_4A821) -> 4A821.c
+  - 0x4a841 (sub_4A841) -> 4A841.c
+  - 0x4a864 (sub_4A864) -> 4A864.c
+  - 0x4a887 (sub_4A887) -> 4A887.c
+  - 0x4a8aa (sub_4A8AA) -> 4A8AA.c
+  - 0x4a914 (sub_4A914) -> 4A914.c
+
+Calls (1 callees):
+  - 0x4a314 (sub_4A314) -> 4A314.c
+
+================================================================================
+Function: sub_4BF0C
+Address: 0x4bf0c
+File: 4BF0C.c
+
+Called by (2 callers):
+  - 0x4a58d (sub_4A58D) -> 4A58D.c
+  - 0x4a59e (sub_4A59E) -> 4A59E.c
+
+Calls: none
+
+================================================================================
+Function: sub_4BF8B
+Address: 0x4bf8b
+File: 4BF8B.c
+
+Called by (2 callers):
+  - 0x4a952 (sub_4A952) -> 4A952.c
+  - 0x4a985 (sub_4A985) -> 4A985.c
+
+Calls (1 callees):
+  - 0x4a314 (sub_4A314) -> 4A314.c
+
+================================================================================
+Function: sub_4C052
+Address: 0x4c052
+File: 4C052.c
+
+Called by (9 callers):
+  - 0x4a461 (sub_4A461) -> 4A461.c
+  - 0x4a480 (sub_4A480) -> 4A480.c
+  - 0x4a49f (sub_4A49F) -> 4A49F.c
+  - 0x4a4bb (sub_4A4BB) -> 4A4BB.c
+  - 0x4a4d7 (sub_4A4D7) -> 4A4D7.c
+  - 0x4a4f6 (sub_4A4F6) -> 4A4F6.c
+  - 0x4a515 (sub_4A515) -> 4A515.c
+  - 0x4a534 (sub_4A534) -> 4A534.c
+  - 0x4a553 (sub_4A553) -> 4A553.c
+
+Calls: none
+
+================================================================================
+Function: sub_4C117
+Address: 0x4c117
+File: 4C117.c
+
+Called by (6 callers):
+  - 0x4a75b (sub_4A75B) -> 4A75B.c
+  - 0x4a797 (sub_4A797) -> 4A797.c
+  - 0x4ab58 (sub_4AB58) -> 4AB58.c
+  - 0x4aba0 (sub_4ABA0) -> 4ABA0.c
+  - 0x4ac14 (sub_4AC14) -> 4AC14.c
+  - 0x4b681 (sub_4B681) -> 4B681.c
+
+Calls: none
+
+================================================================================
+Function: sub_4C2A4
+Address: 0x4c2a4
+File: 4C2A4.c
+
+Called by (1 callers):
+  - 0x4b681 (sub_4B681) -> 4B681.c
+
+Calls (3 callees):
+  - 0x4b852 (sub_4B852) -> 4B852.c
+  - 0x4ba87 (sub_4BA87) -> 4BA87.c
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+
+================================================================================
+Function: sub_4C35A
+Address: 0x4c35a
+File: 4C35A.c
+
+Called by (1 callers):
+  - 0x4c2a4 (sub_4C2A4) -> 4C2A4.c
+
+Calls (5 callees):
+  - 0x4b852 (sub_4B852) -> 4B852.c
+  - 0x4b882 (sub_4B882) -> 4B882.c
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+  - 0x4ced6 (sub_4CED6) -> 4CED6.c
+
+================================================================================
+Function: sub_4C4BD
+Address: 0x4c4bd
+File: 4C4BD.c
+
+Called by (2 callers):
+  - 0x4b122 (sub_4B122) -> 4B122.c
+  - 0x4b681 (sub_4B681) -> 4B681.c
+
+Calls (1 callees):
+  - 0x4c523 (sub_4C523) -> 4C523.c
+
+================================================================================
+Function: sub_4C523
+Address: 0x4c523
+File: 4C523.c
+
+Called by (2 callers):
+  - 0x4c4bd (sub_4C4BD) -> 4C4BD.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+
+Calls: none
+
+================================================================================
+Function: sub_4C59E
+Address: 0x4c59e
+File: 4C59E.c
+
+Called by (1 callers):
+  - 0x4ad7c (sub_4AD7C) -> 4AD7C.c
+
+Calls: none
+
+================================================================================
+Function: sub_4C68C
+Address: 0x4c68c
+File: 4C68C.c
+
+Called by (1 callers):
+  - 0x4b122 (sub_4B122) -> 4B122.c
+
+Calls (1 callees):
+  - 0x4b852 (sub_4B852) -> 4B852.c
+
+================================================================================
+Function: sub_4C6A5
+Address: 0x4c6a5
+File: 4C6A5.c
+
+Called by (2 callers):
+  - 0x4b018 (sub_4B018) -> 4B018.c
+  - 0x4c68c (sub_4C68C) -> 4C68C.c
+
+Calls (3 callees):
+  - 0x4bc5c (sub_4BC5C) -> 4BC5C.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+
+================================================================================
+Function: sub_4C6E8
+Address: 0x4c6e8
+File: 4C6E8.c
+
+Called by (1 callers):
+  - 0x4c6a5 (sub_4C6A5) -> 4C6A5.c
+
+Calls (5 callees):
+  - 0x4b882 (sub_4B882) -> 4B882.c
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+  - 0x4be46 (sub_4BE46) -> 4BE46.c
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+
+================================================================================
+Function: sub_4C980
+Address: 0x4c980
+File: 4C980.c
+
+Called by (3 callers):
+  - 0x4cb77 (sub_4CB77) -> 4CB77.c
+  - 0x4cb81 (sub_4CB81) -> 4CB81.c
+  - 0x4cb8e (sub_4CB8E) -> 4CB8E.c
+
+Calls (6 callees):
+  - 0x4b852 (sub_4B852) -> 4B852.c
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+  - 0x4c523 (sub_4C523) -> 4C523.c
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+  - 0x4ced6 (sub_4CED6) -> 4CED6.c
+
+================================================================================
+Function: sub_4CB77
+Address: 0x4cb77
+File: 4CB77.c
+
+Called by (1 callers):
+  - 0x4b122 (sub_4B122) -> 4B122.c
+
+Calls (1 callees):
+  - 0x4c980 (sub_4C980) -> 4C980.c
+
+================================================================================
+Function: sub_4CB81
+Address: 0x4cb81
+File: 4CB81.c
+
+Called by (1 callers):
+  - 0x4b122 (sub_4B122) -> 4B122.c
+
+Calls (1 callees):
+  - 0x4c980 (sub_4C980) -> 4C980.c
+
+================================================================================
+Function: sub_4CB8E
+Address: 0x4cb8e
+File: 4CB8E.c
+
+Called by (1 callers):
+  - 0x4b018 (sub_4B018) -> 4B018.c
+
+Calls (1 callees):
+  - 0x4c980 (sub_4C980) -> 4C980.c
+
+================================================================================
+Function: sub_4CBC4
+Address: 0x4cbc4
+File: 4CBC4.c
+
+Called by (1 callers):
+  - 0x4b018 (sub_4B018) -> 4B018.c
+
+Calls (4 callees):
+  - 0x4b852 (sub_4B852) -> 4B852.c
+  - 0x4b882 (sub_4B882) -> 4B882.c
+  - 0x4bab1 (sub_4BAB1) -> 4BAB1.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+
+================================================================================
+Function: sub_4CD98
+Address: 0x4cd98
+File: 4CD98.c
+
+Called by (1 callers):
+  - 0x4b122 (sub_4B122) -> 4B122.c
+
+Calls: none
+
+================================================================================
+Function: sub_4CE64
+Address: 0x4ce64
+File: 4CE64.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+
+================================================================================
+Function: sub_4CE84
+Address: 0x4ce84
+File: 4CE84.c
+
+Called by (4 callers):
+  - 0x4c6e8 (sub_4C6E8) -> 4C6E8.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+  - 0x4ce64 (sub_4CE64) -> 4CE64.c
+  - 0x4ced6 (sub_4CED6) -> 4CED6.c
+
+Calls (2 callees):
+  - 0x4b882 (sub_4B882) -> 4B882.c
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+
+================================================================================
+Function: sub_4CED6
+Address: 0x4ced6
+File: 4CED6.c
+
+Called by (2 callers):
+  - 0x4c35a (sub_4C35A) -> 4C35A.c
+  - 0x4c980 (sub_4C980) -> 4C980.c
+
+Calls (2 callees):
+  - 0x4bc86 (sub_4BC86) -> 4BC86.c
+  - 0x4ce84 (sub_4CE84) -> 4CE84.c
+
+================================================================================
+Function: nullsub_4
+Address: 0x4cf1e
+File: 4CF1E.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4CF4D
+Address: 0x4cf4d
+File: 4CF4D.c
+
+Called by: none
+
+Calls (3 callees):
+  - 0x3707e (_nmalloc)
+  - 0x3777e (_nfree)
+  - 0x37910 (memset)
+
+================================================================================
+Function: j___nmemneed_0
+Address: 0x4d690
+File: 4D690.c
+
+Called by (1 callers):
+  - 0x4d03e (_matherr)
+
+Calls: none
+
+================================================================================
+Function: sub_4D966
+Address: 0x4d966
+File: 4D966.c
+
+Called by (1 callers):
+  - 0x4d25b (_FtoS)
+
+Calls (6 callees):
+  - 0x400cc (strcpy)
+  - 0x4d731 (__Nan_Inf)
+  - 0x4d841 (_Scale)
+  - 0x4dd31 (__Bin2String)
+  - 0x4de5a (frexp)
+  - 0x4deb4 (modf)
+
+================================================================================
+Function: sub_4DED4
+Address: 0x4ded4
+File: 4DED4.c
+
+Called by (1 callers):
+  - 0x33faf (sub_33FAF)
+
+Calls: none
+
+================================================================================
+Function: sub_4DEEC
+Address: 0x4deec
+File: 4DEEC.c
+
+Called by (2 callers):
+  - 0x219ad (sub_219AD)
+  - 0x22046 (sub_22046)
+
+Calls: none
+
+================================================================================
+Function: sub_4DF09
+Address: 0x4df09
+File: 4DF09.c
+
+Called by (4 callers):
+  - 0x10010 (sub_10010)
+  - 0x19df7 (sub_19DF7)
+  - 0x1f894 (sub_1F894)
+  - 0x2968d (sub_2968D)
+
+Calls: none
+
+================================================================================
+Function: sub_4DF28
+Address: 0x4df28
+File: 4DF28.c
+
+Called by (6 callers):
+  - 0x10010 (sub_10010)
+  - 0x19df7 (sub_19DF7)
+  - 0x1f894 (sub_1F894)
+  - 0x25ebb (sub_25EBB)
+  - 0x2968d (sub_2968D)
+  - 0x2986f (sub_2986F)
+
+Calls: none
+
+================================================================================
+Function: sub_4DF4C
+Address: 0x4df4c
+File: 4DF4C.c
+
+Called by (15 callers):
+  - 0x10010 (sub_10010)
+  - 0x1088d (sub_1088D)
+  - 0x10c50 (sub_10C50)
+  - 0x14121 (sub_14121)
+  - 0x14237 (sub_14237)
+  - 0x14b78 (sub_14B78)
+  - 0x15055 (sub_15055)
+  - 0x15311 (sub_15311)
+  - 0x1567e (sub_1567E)
+  - 0x1598a (sub_1598A)
+  - 0x18890 (sub_18890)
+  - 0x18d8c (sub_18D8C)
+  - 0x1bbdc (sub_1BBDC)
+  - 0x1cff0 (sub_1CFF0)
+  - 0x24754 (sub_24754)
+
+Calls: none
+
+================================================================================
+Function: sub_4DF84
+Address: 0x4df84
+File: 4DF84.c
+
+Called by (1 callers):
+  - 0x1cd17 (sub_1CD17)
+
+Calls: none
+
+================================================================================
+Function: sub_4E016
+Address: 0x4e016
+File: 4E016.c
+
+Called by (1 callers):
+  - 0x11eee (sub_11EEE)
+
+Calls: none
+
+================================================================================
+Function: sub_4E0A2
+Address: 0x4e0a2
+File: 4E0A2.c
+
+Called by (1 callers):
+  - 0x12ac6 (sub_12AC6)
+
+Calls: none
+
+================================================================================
+Function: sub_4E127
+Address: 0x4e127
+File: 4E127.c
+
+Called by (2 callers):
+  - 0x1c2da (sub_1C2DA)
+  - 0x1da16 (sub_1DA16)
+
+Calls: none
+
+================================================================================
+Function: sub_4E1A6
+Address: 0x4e1a6
+File: 4E1A6.c
+
+Called by (2 callers):
+  - 0x127e0 (sub_127E0)
+  - 0x2b4fb (sub_2B4FB)
+
+Calls: none
+
+================================================================================
+Function: sub_4E22A
+Address: 0x4e22a
+File: 4E22A.c
+
+Called by (11 callers):
+  - 0x11eee (sub_11EEE)
+  - 0x126f7 (sub_126F7)
+  - 0x127e0 (sub_127E0)
+  - 0x12ac6 (sub_12AC6)
+  - 0x1399c (sub_1399C)
+  - 0x1acf3 (sub_1ACF3)
+  - 0x1cb94 (sub_1CB94)
+  - 0x1da16 (sub_1DA16)
+  - 0x265ec (sub_265EC)
+  - 0x2b4fb (sub_2B4FB)
+  - 0x344b4 (sub_344B4)
+
+Calls: none
+
+================================================================================
+Function: sub_4E29C
+Address: 0x4e29c
+File: 4E29C.c
+
+Called by (5 callers):
+  - 0x27079 (sub_27079)
+  - 0x2810b (sub_2810B)
+  - 0x2825b (sub_2825B)
+  - 0x2a0c2 (sub_2A0C2)
+  - 0x2a694 (sub_2A694)
+
+Calls: none
+
+================================================================================
+Function: sub_4E310
+Address: 0x4e310
+File: 4E310.c
+
+Called by (1 callers):
+  - 0x4e31c (sub_4E31C) -> 4E31C.c
+
+Calls: none
+
+================================================================================
+Function: sub_4E31C
+Address: 0x4e31c
+File: 4E31C.c
+
+Called by (14 callers):
+  - 0x11aa8 (sub_11AA8)
+  - 0x11cac (sub_11CAC)
+  - 0x12dac (sub_12DAC)
+  - 0x12eaa (sub_12EAA)
+  - 0x1300d (sub_1300D)
+  - 0x13185 (sub_13185)
+  - 0x13315 (sub_13315)
+  - 0x16c57 (sub_16C57)
+  - 0x17898 (sub_17898)
+  - 0x18b84 (sub_18B84)
+  - 0x19953 (sub_19953)
+  - 0x1b1e7 (sub_1B1E7)
+  - 0x1e5c0 (sub_1E5C0)
+  - 0x24336 (sub_24336)
+
+Calls (1 callees):
+  - 0x4e310 (sub_4E310) -> 4E310.c
+
+================================================================================
+Function: sub_4E381
+Address: 0x4e381
+File: 4E381.c
+
+Called by (41 callers):
+  - 0x10010 (sub_10010)
+  - 0x117e7 (sub_117E7)
+  - 0x12cea (sub_12CEA)
+  - 0x135dd (sub_135DD)
+  - 0x1366a (sub_1366A)
+  - 0x165ac (sub_165AC)
+  - 0x176b4 (sub_176B4)
+  - 0x17e0b (sub_17E0B)
+  - 0x18d8c (sub_18D8C)
+  - 0x190ac (sub_190AC)
+  - 0x19df7 (sub_19DF7)
+  - 0x1a30b (sub_1A30B)
+  - 0x1a866 (sub_1A866)
+  - 0x1aa1d (sub_1AA1D)
+  - 0x1b1e7 (sub_1B1E7)
+  - 0x1d80b (sub_1D80B)
+  - 0x1d8ba (sub_1D8BA)
+  - 0x1e292 (sub_1E292)
+  - 0x1e529 (sub_1E529)
+  - 0x1e5c0 (sub_1E5C0)
+  - 0x1f1cc (sub_1F1CC)
+  - 0x1f894 (sub_1F894)
+  - 0x2000a (sub_2000A)
+  - 0x20421 (sub_20421)
+  - 0x24336 (sub_24336)
+  - 0x25bf4 (main)
+  - 0x25ebb (sub_25EBB)
+  - 0x26152 (sub_26152)
+  - 0x28b41 (sub_28B41)
+  - 0x2aa00 (sub_2AA00)
+  - 0x2ac7d (sub_2AC7D)
+  - 0x2af28 (sub_2AF28)
+  - 0x31bdf (sub_31BDF)
+  - 0x31c49 (sub_31C49)
+  - 0x32999 (sub_32999)
+  - 0x33faf (sub_33FAF)
+  - 0x34531 (sub_34531)
+  - 0x3460b (sub_3460B)
+  - 0x34673 (sub_34673)
+  - 0x346cd (sub_346CD)
+  - 0x35854 (sub_35854)
+
+Calls: none
+
+================================================================================
+Function: sub_4E390
+Address: 0x4e390
+File: 4E390.c
+
+Called by (5 callers):
+  - 0x14237 (sub_14237)
+  - 0x14818 (sub_14818)
+  - 0x14b78 (sub_14B78)
+  - 0x1598a (sub_1598A)
+  - 0x18890 (sub_18890)
+
+Calls (1 callees):
+  - 0x4e42c (sub_4E42C) -> 4E42C.c
+
+================================================================================
+Function: sub_4E42C
+Address: 0x4e42c
+File: 4E42C.c
+
+Called by (2 callers):
+  - 0x4e390 (sub_4E390) -> 4E390.c
+  - 0x4e42c (sub_4E42C) -> 4E42C.c
+
+Calls (2 callees):
+  - 0x4e42c (sub_4E42C) -> 4E42C.c
+  - 0x4e4be (sub_4E4BE) -> 4E4BE.c
+
+================================================================================
+Function: sub_4E4BE
+Address: 0x4e4be
+File: 4E4BE.c
+
+Called by (1 callers):
+  - 0x4e42c (sub_4E42C) -> 4E42C.c
+
+Calls: none
+
+================================================================================
+Function: sub_4E4F6
+Address: 0x4e4f6
+File: 4E4F6.c
+
+Called by (3 callers):
+  - 0x14121 (sub_14121)
+  - 0x14b78 (sub_14B78)
+  - 0x18890 (sub_18890)
+
+Calls (2 callees):
+  - 0x4e5cc (sub_4E5CC) -> 4E5CC.c
+  - 0x4e751 (sub_4E751) -> 4E751.c
+
+================================================================================
+Function: sub_4E5CC
+Address: 0x4e5cc
+File: 4E5CC.c
+
+Called by (2 callers):
+  - 0x4e4f6 (sub_4E4F6) -> 4E4F6.c
+  - 0x4e5cc (sub_4E5CC) -> 4E5CC.c
+
+Calls (2 callees):
+  - 0x4e5cc (sub_4E5CC) -> 4E5CC.c
+  - 0x4e680 (sub_4E680) -> 4E680.c
+
+================================================================================
+Function: sub_4E680
+Address: 0x4e680
+File: 4E680.c
+
+Called by (1 callers):
+  - 0x4e5cc (sub_4E5CC) -> 4E5CC.c
+
+Calls (3 callees):
+  - 0x4e703 (sub_4E703) -> 4E703.c
+  - 0x4e71f (sub_4E71F) -> 4E71F.c
+  - 0x4e751 (sub_4E751) -> 4E751.c
+
+================================================================================
+Function: sub_4E703
+Address: 0x4e703
+File: 4E703.c
+
+Called by (1 callers):
+  - 0x4e680 (sub_4E680) -> 4E680.c
+
+Calls: none
+
+================================================================================
+Function: sub_4E71F
+Address: 0x4e71f
+File: 4E71F.c
+
+Called by (1 callers):
+  - 0x4e680 (sub_4E680) -> 4E680.c
+
+Calls: none
+
+================================================================================
+Function: sub_4E751
+Address: 0x4e751
+File: 4E751.c
+
+Called by (2 callers):
+  - 0x4e4f6 (sub_4E4F6) -> 4E4F6.c
+  - 0x4e680 (sub_4E680) -> 4E680.c
+
+Calls: none
+
+================================================================================
+Function: sub_4E795
+Address: 0x4e795
+File: 4E795.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4E7DD
+Address: 0x4e7dd
+File: 4E7DD.c
+
+Called by (3 callers):
+  - 0x2a694 (sub_2A694)
+  - 0x2aa00 (sub_2AA00)
+  - 0x2ac7d (sub_2AC7D)
+
+Calls: none
+
+================================================================================
+Function: sub_4E7F2
+Address: 0x4e7f2
+File: 4E7F2.c
+
+Called by (1 callers):
+  - 0x1e292 (sub_1E292)
+
+Calls: none
+
+================================================================================
+Function: sub_4E809
+Address: 0x4e809
+File: 4E809.c
+
+Called by (7 callers):
+  - 0x26152 (sub_26152)
+  - 0x265ec (sub_265EC)
+  - 0x2670e (sub_2670E)
+  - 0x279bc (sub_279BC)
+  - 0x29300 (sub_29300)
+  - 0x2986f (sub_2986F)
+  - 0x29daa (sub_29DAA)
+
+Calls: none
+
+================================================================================
+Function: sub_4E821
+Address: 0x4e821
+File: 4E821.c
+
+Called by (4 callers):
+  - 0x10c50 (sub_10C50)
+  - 0x112a5 (sub_112A5)
+  - 0x1e292 (sub_1E292)
+  - 0x2ac7d (sub_2AC7D)
+
+Calls: none
+
+================================================================================
+Function: sub_4E838
+Address: 0x4e838
+File: 4E838.c
+
+Called by (2 callers):
+  - 0x10c50 (sub_10C50)
+  - 0x112a5 (sub_112A5)
+
+Calls: none
+
+================================================================================
+Function: sub_4E84F
+Address: 0x4e84f
+File: 4E84F.c
+
+Called by (4 callers):
+  - 0x10c50 (sub_10C50)
+  - 0x1c81f (sub_1C81F)
+  - 0x1ecc7 (sub_1ECC7)
+  - 0x2f7b6 (sub_2F7B6)
+
+Calls: none
+
+================================================================================
+Function: sub_4E866
+Address: 0x4e866
+File: 4E866.c
+
+Called by (11 callers):
+  - 0x14ef0 (sub_14EF0)
+  - 0x15311 (sub_15311)
+  - 0x15880 (sub_15880)
+  - 0x1598a (sub_1598A)
+  - 0x15b77 (sub_15B77)
+  - 0x1c75e (sub_1C75E)
+  - 0x1c8ed (sub_1C8ED)
+  - 0x1ca89 (sub_1CA89)
+  - 0x1ceed (sub_1CEED)
+  - 0x1cff0 (sub_1CFF0)
+  - 0x1d51d (sub_1D51D)
+
+Calls: none
+
+================================================================================
+Function: sub_4E87D
+Address: 0x4e87d
+File: 4E87D.c
+
+Called by (1 callers):
+  - 0x1e98c (sub_1E98C)
+
+Calls: none
+
+================================================================================
+Function: sub_4E88E
+Address: 0x4e88e
+File: 4E88E.c
+
+Called by (1 callers):
+  - 0x1c1c3 (sub_1C1C3)
+
+Calls: none
+
+================================================================================
+Function: sub_4E8A5
+Address: 0x4e8a5
+File: 4E8A5.c
+
+Called by (8 callers):
+  - 0x115b6 (sub_115B6)
+  - 0x14121 (sub_14121)
+  - 0x14237 (sub_14237)
+  - 0x14818 (sub_14818)
+  - 0x14b78 (sub_14B78)
+  - 0x1567e (sub_1567E)
+  - 0x1598a (sub_1598A)
+  - 0x18890 (sub_18890)
+
+Calls: none
+
+================================================================================
+Function: sub_4E8BC
+Address: 0x4e8bc
+File: 4E8BC.c
+
+Called by (22 callers):
+  - 0x1145a (sub_1145A)
+  - 0x14237 (sub_14237)
+  - 0x15055 (sub_15055)
+  - 0x1567e (sub_1567E)
+  - 0x15880 (sub_15880)
+  - 0x184c0 (sub_184C0)
+  - 0x18d8c (sub_18D8C)
+  - 0x1b750 (sub_1B750)
+  - 0x1b9de (sub_1B9DE)
+  - 0x1bbdc (sub_1BBDC)
+  - 0x1c1c3 (sub_1C1C3)
+  - 0x1debe (sub_1DEBE)
+  - 0x1e856 (sub_1E856)
+  - 0x1e98c (sub_1E98C)
+  - 0x1ecc7 (sub_1ECC7)
+  - 0x1f0dc (sub_1F0DC)
+  - 0x20c6f (sub_20C6F)
+  - 0x272d0 (sub_272D0)
+  - 0x28632 (sub_28632)
+  - 0x2872b (sub_2872B)
+  - 0x28cbd (sub_28CBD)
+  - 0x2f7b6 (sub_2F7B6)
+
+Calls: none
+
+================================================================================
+Function: sub_4E8D3
+Address: 0x4e8d3
+File: 4E8D3.c
+
+Called by (2 callers):
+  - 0x2ff01 (sub_2FF01)
+  - 0x30e9d (sub_30E9D)
+
+Calls: none
+
+================================================================================
+Function: sub_4E98D
+Address: 0x4e98d
+File: 4E98D.c
+
+Called by (21 callers):
+  - 0x10652 (sub_10652)
+  - 0x16886 (sub_16886)
+  - 0x1acf3 (sub_1ACF3)
+  - 0x1aeb1 (sub_1AEB1)
+  - 0x1f73f (sub_1F73F)
+  - 0x1f894 (sub_1F894)
+  - 0x26152 (sub_26152)
+  - 0x2cf30 (sub_2CF30)
+  - 0x2d80d (sub_2D80D)
+  - 0x2dfc8 (sub_2DFC8)
+  - 0x2e2b0 (sub_2E2B0)
+  - 0x2e9a8 (sub_2E9A8)
+  - 0x2eb9f (sub_2EB9F)
+  - 0x2f4d4 (sub_2F4D4)
+  - 0x2f631 (sub_2F631)
+  - 0x2fb2c (sub_2FB2C)
+  - 0x2fe14 (sub_2FE14)
+  - 0x2ff01 (sub_2FF01)
+  - 0x31529 (sub_31529)
+  - 0x31c49 (sub_31C49)
+  - 0x33faf (sub_33FAF)
+
+Calls: none
+
+================================================================================
+Function: sub_4EB48
+Address: 0x4eb48
+File: 4EB48.c
+
+Called by (1 callers):
+  - 0x1366a (sub_1366A)
+
+Calls: none
+
+================================================================================
+Function: sub_4EB59
+Address: 0x4eb59
+File: 4EB59.c
+
+Called by (2 callers):
+  - 0x1f1cc (sub_1F1CC)
+  - 0x1f30a (sub_1F30A)
+
+Calls: none
+
+================================================================================
+Function: sub_4EBAB
+Address: 0x4ebab
+File: 4EBAB.c
+
+Called by (8 callers):
+  - 0x15f0e (sub_15F0E)
+  - 0x1c4cc (sub_1C4CC)
+  - 0x1cb94 (sub_1CB94)
+  - 0x1db65 (sub_1DB65)
+  - 0x1df58 (sub_1DF58)
+  - 0x22470 (sub_22470)
+  - 0x22547 (sub_22547)
+  - 0x32999 (sub_32999)
+
+Calls (1 callees):
+  - 0x4ec66 (sub_4EC66) -> 4EC66.c
+
+================================================================================
+Function: sub_4EBE3
+Address: 0x4ebe3
+File: 4EBE3.c
+
+Called by (24 callers):
+  - 0x16c57 (sub_16C57)
+  - 0x19953 (sub_19953)
+  - 0x1c75e (sub_1C75E)
+  - 0x1c81f (sub_1C81F)
+  - 0x1c916 (sub_1C916)
+  - 0x1c9dd (sub_1C9DD)
+  - 0x1e529 (sub_1E529)
+  - 0x1e856 (sub_1E856)
+  - 0x1ecc7 (sub_1ECC7)
+  - 0x21db2 (sub_21DB2)
+  - 0x22721 (sub_22721)
+  - 0x22866 (sub_22866)
+  - 0x22997 (sub_22997)
+  - 0x22d1b (sub_22D1B)
+  - 0x25bf4 (main)
+  - 0x26eda (sub_26EDA)
+  - 0x2c217 (sub_2C217)
+  - 0x2c441 (sub_2C441)
+  - 0x2ebe1 (sub_2EBE1)
+  - 0x2f7b6 (sub_2F7B6)
+  - 0x2ff01 (sub_2FF01)
+  - 0x31c49 (sub_31C49)
+  - 0x33faf (sub_33FAF)
+  - 0x3623c (sub_3623C)
+
+Calls: none
+
+================================================================================
+Function: sub_4EBFF
+Address: 0x4ebff
+File: 4EBFF.c
+
+Called by (20 callers):
+  - 0x15f84 (sub_15F84)
+  - 0x16559 (sub_16559)
+  - 0x17aed (sub_17AED)
+  - 0x17eef (sub_17EEF)
+  - 0x18c6d (sub_18C6D)
+  - 0x19953 (sub_19953)
+  - 0x265ec (sub_265EC)
+  - 0x27079 (sub_27079)
+  - 0x27738 (sub_27738)
+  - 0x279bc (sub_279BC)
+  - 0x27d33 (sub_27D33)
+  - 0x27f4a (sub_27F4A)
+  - 0x2825b (sub_2825B)
+  - 0x29bcb (sub_29BCB)
+  - 0x29daa (sub_29DAA)
+  - 0x2a29d (sub_2A29D)
+  - 0x2a43e (sub_2A43E)
+  - 0x2a857 (sub_2A857)
+  - 0x2af28 (sub_2AF28)
+  - 0x31c49 (sub_31C49)
+
+Calls (1 callees):
+  - 0x4ec66 (sub_4EC66) -> 4EC66.c
+
+================================================================================
+Function: sub_4EC31
+Address: 0x4ec31
+File: 4EC31.c
+
+Called by (4 callers):
+  - 0x15f84 (sub_15F84)
+  - 0x16559 (sub_16559)
+  - 0x1956b (sub_1956B)
+  - 0x19953 (sub_19953)
+
+Calls (1 callees):
+  - 0x4ec66 (sub_4EC66) -> 4EC66.c
+
+================================================================================
+Function: nullsub_6
+Address: 0x4ec65
+File: 4EC65.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4EC66
+Address: 0x4ec66
+File: 4EC66.c
+
+Called by (3 callers):
+  - 0x4ebab (sub_4EBAB) -> 4EBAB.c
+  - 0x4ebff (sub_4EBFF) -> 4EBFF.c
+  - 0x4ec31 (sub_4EC31) -> 4EC31.c
+
+Calls: none
+
+================================================================================
+Function: sub_4EC7C
+Address: 0x4ec7c
+File: 4EC7C.c
+
+Called by (1 callers):
+  - 0x15e71 (sub_15E71)
+
+Calls (1 callees):
+  - 0x4eca4 (sub_4ECA4) -> 4ECA4.c
+
+================================================================================
+Function: sub_4ECA4
+Address: 0x4eca4
+File: 4ECA4.c
+
+Called by (1 callers):
+  - 0x4ec7c (sub_4EC7C) -> 4EC7C.c
+
+Calls: none
+
+================================================================================
+Function: sub_4ECBF
+Address: 0x4ecbf
+File: 4ECBF.c
+
+Called by (3 callers):
+  - 0x15e9e (sub_15E9E)
+  - 0x15f0e (sub_15F0E)
+  - 0x165ac (sub_165AC)
+
+Calls (1 callees):
+  - 0x4ecf0 (sub_4ECF0) -> 4ECF0.c
+
+================================================================================
+Function: sub_4ECF0
+Address: 0x4ecf0
+File: 4ECF0.c
+
+Called by (1 callers):
+  - 0x4ecbf (sub_4ECBF) -> 4ECBF.c
+
+Calls: none
+
+================================================================================
+Function: sub_4ED0B
+Address: 0x4ed0b
+File: 4ED0B.c
+
+Called by (1 callers):
+  - 0x1685c (sub_1685C)
+
+Calls: none
+
+================================================================================
+Function: sub_4ED34
+Address: 0x4ed34
+File: 4ED34.c
+
+Called by (9 callers):
+  - 0x15e9e (sub_15E9E)
+  - 0x1741c (sub_1741C)
+  - 0x176b4 (sub_176B4)
+  - 0x179d5 (sub_179D5)
+  - 0x197e5 (sub_197E5)
+  - 0x19953 (sub_19953)
+  - 0x26ce4 (sub_26CE4)
+  - 0x26eda (sub_26EDA)
+  - 0x27079 (sub_27079)
+
+Calls (1 callees):
+  - 0x4ed4f (sub_4ED4F) -> 4ED4F.c
+
+================================================================================
+Function: sub_4ED4F
+Address: 0x4ed4f
+File: 4ED4F.c
+
+Called by (1 callers):
+  - 0x4ed34 (sub_4ED34) -> 4ED34.c
+
+Calls: none
+
+================================================================================
+Function: sub_4ED7A
+Address: 0x4ed7a
+File: 4ED7A.c
+
+Called by (1 callers):
+  - 0x15f84 (sub_15F84)
+
+Calls: none
+
+================================================================================
+Function: sub_4EEE0
+Address: 0x4eee0
+File: 4EEE0.c
+
+Called by (1 callers):
+  - 0x11eee (sub_11EEE)
+
+Calls: none
+

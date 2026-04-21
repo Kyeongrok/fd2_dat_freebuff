@@ -1,0 +1,41 @@
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Build directories
+bin/
+obj/
+output/
+temp/
+sdl2_install/
+__pycache__
+lib/
+images/
+thirdparty/
+
+# Data
+game/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+opencode.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+*.jpg
+*.png
+*.bmp
+*.gif

@@ -1,0 +1,12 @@
+/*
+ * func-name: sub_3806F
+ * func-address: 0x3806f
+ * callers: 0x3ec17, 0x3f113, 0x3f236, 0x3f27d, 0x3f2a5, 0x3f2cc, 0x3f2f0, 0x3f320, 0x3f344, 0x3f374, 0x3f398, 0x3f3c8, 0x3f3f8, 0x41460, 0x44330
+ * callees: none
+ */
+
+// attributes: thunk
+int __fastcall sub_3806F(int a1)
+{
+  return sub_3EA81(a1);
+}

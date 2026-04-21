@@ -1,0 +1,25 @@
+# Failed to decompile 21 functions
+# Format: address | function_name | reason
+#================================================================================
+
+0x13a9f | sub_13A9F | decompile returned None
+0x13e9c | sub_13E9C | decompile returned None
+0x14121 | sub_14121 | decompile returned None
+0x1548e | sub_1548E | decompile returned None
+0x16f55 | sub_16F55 | decompile returned None
+0x1a30b | sub_1A30B | decompile returned None
+0x1cac7 | sub_1CAC7 | decompile returned None
+0x2185f | sub_2185F | decompile returned None
+0x21a9e | sub_21A9E | decompile returned None
+0x21ad9 | sub_21AD9 | decompile returned None
+0x21b99 | sub_21B99 | decompile returned None
+0x2211c | sub_2211C | decompile returned None
+0x22153 | sub_22153 | decompile returned None
+0x2218a | sub_2218A | decompile returned None
+0x244b6 | sub_244B6 | decompile returned None
+0x2548c | sub_2548C | decompile returned None
+0x25757 | sub_25757 | decompile returned None
+0x336a0 | sub_336A0 | decompile returned None
+0x33af1 | sub_33AF1 | decompile returned None
+0x33c9d | sub_33C9D | decompile returned None
+0x33f78 | sub_33F78 | decompile returned None
