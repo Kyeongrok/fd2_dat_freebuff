@@ -1,108 +1,108 @@
-# FD2 Port Architecture
+# FD2 포트 아키텍처
 
-The target is not a "modern remake." The target is a deterministic reimplementation that reproduces the DOS build's behavior, then wraps that core in a platform layer for modern hosts.
+목표는 "현대적 리메이크"가 아닙니다. DOS 빌드의 동작을 결정론적으로 재현한 후, 그 코어를 현대 환경을 위한 플랫폼 레이어로 감싸는 것입니다.
 
-## Core Rule
+## 핵심 원칙
 
-The port must treat DOS behavior as the spec:
+포트는 DOS 동작을 명세로 취급해야 합니다:
 
-- same asset formats
-- same simulation order
-- same animation playback
-- same renderer ordering
-- same menu flow
-- same sound/music event timing
+- 동일한 에셋 포맷
+- 동일한 시뮬레이션 순서
+- 동일한 애니메이션 재생
+- 동일한 렌더러 순서
+- 동일한 메뉴 흐름
+- 동일한 사운드/음악 이벤트 타이밍
 
-The platform layer should be replaceable. The game core should not know whether it is running on DOS or anything else.
+플랫폼 레이어는 교체 가능해야 합니다. 게임 코어는 DOS에서 실행되는지 다른 환경에서 실행되는지 알아서는 안 됩니다.
 
-## Recommended Split
+## 권장 분리 구조
 
 ### `game_data`
 
-Responsibilities:
+책임:
 
-- parse original `*.DAT`, `*.B24`, `FDMUS.DAT`, `FIGANI.DAT`, and `FD2.EXE`-derived tables
-- expose exact typed structures for images, sounds, music, and startup/runtime constants
-- preserve raw values alongside interpreted fields where semantics are still incomplete
+- 원본 `*.DAT`, `*.B24`, `FDMUS.DAT`, `FIGANI.DAT`, `FD2.EXE` 파생 테이블 파싱
+- 이미지, 사운드, 음악, 시작/런타임 상수에 대한 정확한 타입 구조체 노출
+- 의미가 아직 불완전한 곳에서는 원시 값과 해석된 필드를 함께 보존
 
-Why:
+이유:
 
-- this is the lowest-risk path to a future native loader
-- it keeps reverse engineering and porting on the same data model
+- 미래 네이티브 로더로의 가장 안전한 경로
+- 역공학과 포팅을 동일한 데이터 모델 위에서 유지
 
 ### `game_core`
 
-Responsibilities:
+책임:
 
-- deterministic fixed-step simulation
-- player motion and resource logic
-- demo playback
-- menu flow and state transitions
-- runtime sequencing for intro, menu, and in-game states
+- 결정론적 고정 스텝 시뮬레이션
+- 플레이어 모션 및 리소스 로직
+- 데모 재생
+- 메뉴 흐름 및 상태 전환
+- 인트로, 메뉴, 인게임 상태의 런타임 시퀀싱
 
-Requirements:
+요구사항:
 
-- no direct rendering API access
-- no direct audio API access
-- all timing comes from explicit frames, not wall clock
+- 렌더링 API 직접 접근 금지
+- 오디오 API 직접 접근 금지
+- 모든 타이밍은 명시적 프레임 기준 (wall clock 금지)
 
 ### `game_renderer_ref`
 
-Responsibilities:
+책임:
 
-- software renderer matching DOS ordering and composition
-- RLE decompression for images
-- palette handling
-- animation frame sequencing
+- DOS 순서와 합성에 맞는 소프트웨어 렌더러
+- 이미지 RLE 압축 해제
+- 팔레트 처리
+- 애니메이션 프레임 시퀀싱
 
-Requirements:
+요구사항:
 
-- CPU-first reference implementation
-- frame buffer output should be byte-comparable or CRC-comparable in tests
+- CPU 우선 참조 구현
+- 프레임 버퍼 출력은 테스트에서 바이트 비교 또는 CRC 비교 가능해야 함
 
 ### `game_audio_ref`
 
-Responsibilities:
+책임:
 
-- sample playback for `TAI.DAT` (sound effects)
-- music sequencing for `FDMUS.DAT`
-- exact event scheduling
+- `TAI.DAT` (효과음) 샘플 재생
+- `FDMUS.DAT` 음악 시퀀싱
+- 정확한 이벤트 스케줄링
 
-Requirements:
+요구사항:
 
-- event order must be testable without an actual sound device
-- "what was scheduled" should be inspectable in logs/tests
+- 실제 사운드 디바이스 없이도 이벤트 순서 테스트 가능
+- "무엇이 스케줄되었는지"를 로그/테스트에서 확인 가능해야 함
 
 ### `platform_host`
 
-Responsibilities:
+책임:
 
-- window creation
-- input collection
-- audio device output
-- file location and save/config paths
+- 윈도우 생성
+- 입력 수집
+- 오디오 디바이스 출력
+- 파일 위치 및 저장/설정 경로
 
-Requirements:
+요구사항:
 
-- keep host I/O outside `game_core`
-- feed the core explicit input/frame/audio commands
+- 호스트 I/O를 `game_core` 밖에 유지
+- 명시적 입력/프레임/오디오 명령을 코어에 전달
 
-## Validation Harness
+## 검증 하네스
 
-The port should ship with non-optional equivalence checks:
+포트는 필수적인 동등성 검사와 함께 제공되어야 합니다:
 
-1. startup asset order:
-   compare against the DOSBox-X startup trace
-2. intro animation:
-   verify frame sequence and timing against the DOS build
-3. menu flow:
-   verify menu state transitions
-4. frame checks:
-   capture reference frames for intro/menu/gameplay
-5. audio checks:
-   compare scheduled music/sfx events before worrying about waveform-perfect output
+1. 시작 에셋 순서:
+   DOSBox-X 시작 트레이스와 비교
+2. 인트로 애니메이션:
+   DOS 빌드 대비 프레임 시퀀스와 타이밍 검증
+3. 메뉴 흐름:
+   메뉴 상태 전환 검증
+4. 프레임 검사:
+   인트로/메뉴/게임플레이의 참조 프레임 캡처
+5. 오디오 검사:
+   파형 완벽 출력 전에 스케줄된 음악/SFX 이벤트 비교
 
-## Current Best Input Artifacts
+## 현재 최상의 입력 아티팩트
 
 - [`tools/fd2_extract.py`](tools/fd2_extract.py)
 - [`tools/fd2_dosbox_trace.py`](tools/fd2_dosbox_trace.py)
@@ -110,24 +110,24 @@ The port should ship with non-optional equivalence checks:
 - [`docs/FD2_Startup_Flow_Analysis.md`](docs/FD2_Startup_Flow_Analysis.md)
 - [`docs/DAT文件结构分析.md`](docs/DAT文件结构分析.md)
 
-Useful generated outputs:
+유용한 생성 출력물:
 
-- extracted images from DAT files
-- RLE decompression parameters
-- animation frame timing
+- DAT 파일에서 추출된 이미지
+- RLE 압축 해제 파라미터
+- 애니메이션 프레임 타이밍
 
-## Current Status
+## 현재 상태
 
-- DAT file formats identified and documented
-- RLE decompression working for FDOTHER.DAT resources
-- Animation playback flow traced (535 frames, 5 animation frames)
-- DOSBox-X debugging working
-- SDL2 environment configured
+- DAT 파일 포맷 식별 및 문서화 완료
+- FDOTHER.DAT 리소스 RLE 압축 해제 동작
+- 애니메이션 재생 흐름 추적 완료 (535프레임, 5개 애니메이션 프레임)
+- DOSBox-X 디버깅 동작
+- SDL2 환경 구성 완료
 
-## Near-Term Milestones
+## 단기 마일스톤
 
-1. Complete RLE decompression for all DAT resources
-2. Capture frame-accurate intro animation trace from DOSBox-X
-3. Verify animation frame timing (535 iterations, delays)
-4. Match intro animation exactly in native implementation
-5. Verify menu flow transitions
+1. 모든 DAT 리소스 RLE 압축 해제 완성
+2. DOSBox-X에서 프레임 정확한 인트로 애니메이션 트레이스 캡처
+3. 애니메이션 프레임 타이밍 검증 (535 이터레이션, 지연)
+4. 네이티브 구현에서 인트로 애니메이션 정확히 일치
+5. 메뉴 흐름 전환 검증

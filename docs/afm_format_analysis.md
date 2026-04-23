@@ -1,102 +1,102 @@
-# ANI.DAT 与 AFM 格式完整分析报告
+# ANI.DAT 및 AFM 포맷 완전 분석 보고서
 
-## 1. 文件结构概览
+## 1. 파일 구조 개요
 
-### ANI.DAT 容器格式
+### ANI.DAT 컨테이너 포맷
 
 ```
-偏移 0x00-0x05: 魔数 "LLLLLL" (6字节)
-偏移 0x06-0x07: 索引条目数 (WORD)
-偏移 0x08-0x09: 保留
-偏移 0x0A+:     索引表 (每条目 4 字节偏移)
+오프셋 0x00-0x05: 매직 "LLLLLL" (6바이트)
+오프셋 0x06-0x07: 인덱스 항목 수 (WORD)
+오프셋 0x08-0x09: 예약
+오프셋 0x0A+:     인덱스 테이블 (항목당 4바이트 오프셋)
 ```
 
-### 索引公式
+### 인덱스 공식
 
 ```c
-// 在 sub_20421 中
-fseek(file, 4 * index + 6, SEEK_SET);  // 定位到索引表
-fread(&offset, 4, 1, file);             // 读取 4 字节偏移
-fseek(file, offset, SEEK_SET);          // 定位到 AFM 数据
+// sub_20421 내부
+fseek(file, 4 * index + 6, SEEK_SET);  // 인덱스 테이블로 이동
+fread(&offset, 4, 1, file);             // 4바이트 오프셋 읽기
+fseek(file, offset, SEEK_SET);          // AFM 데이터로 이동
 ```
 
-## 2. AFM 资源格式
+## 2. AFM 리소스 포맷
 
-### AFM 头部结构 (173 字节)
+### AFM 헤더 구조 (173바이트)
 
 ```
-偏移 0x00-0x4F: 版权信息
+오프셋 0x00-0x4F: 저작권 정보
   "AFM - Animation File Manager Version 1.00 Copyright (C) 1993 Lo Yuan Tsung"
   
-偏移 0x50:      终止符 0x1A
-偏移 0x51-0x9F: 标题 ".Empty Title." 和填充
-偏移 0xA0-0xA4: 元数据 (宽度相关)
-偏移 0xA5-0xA6: 帧数 (WORD) - 关键字段！
-偏移 0xA7-0xA9: 保留
-偏移 0xAA+:    帧数据表
+오프셋 0x50:      종료자 0x1A
+오프셋 0x51-0x9F: 제목 ".Empty Title." 및 패딩
+오프셋 0xA0-0xA4: 메타데이터 (너비 관련)
+오프셋 0xA5-0xA6: 프레임 수 (WORD) - 핵심 필드!
+오프셋 0xA7-0xA9: 예약
+오프셋 0xAA+:    프레임 데이터 테이블
 ```
 
-### 帧数据结构
+### 프레임 데이터 구조
 
-每帧由帧头和帧数据组成：
+각 프레임은 프레임 헤더와 프레임 데이터로 구성됩니다:
 
 ```
-帧头 (8 字节):
-  [2字节] 帧数据大小
-  [2字节] 帧参数 (传递给解码函数)
-  [4字节] 保留/未使用
+프레임 헤더 (8바이트):
+  [2바이트] 프레임 데이터 크기
+  [2바이트] 프레임 파라미터 (디코딩 함수에 전달)
+  [4바이트] 예약/미사용
 
-帧数据:
-  [帧数据大小] 编码的像素数据
+프레임 데이터:
+  [프레임 데이터 크기] 인코딩된 픽셀 데이터
 ```
 
-## 3. 帧解码函数表
+## 3. 프레임 디코딩 함수 테이블
 
-`sub_36FF4` 是帧分发函数，通过 `funcs_37012` 函数表调用不同的解码器：
+`sub_36FF4`는 프레임 디스패치 함수로, `funcs_37012` 함수 테이블을 통해 각 디코더를 호출합니다:
 
-| 命令字节 | 函数 | 说明 |
-|---------|------|------|
-| 0x00 | sub_36E3D | 填充调色板 (192 字节) |
-| 0x01 | sub_36E57 | 直接复制 (768 字节) |
-| 0x02 | sub_36E65 | RLE 解码到调色板 (768 字节) |
-| 0x03 | sub_36EA7 | 多段复制 |
-| 0x04 | sub_36EE0 | 填充整个帧 (64000 字节) |
-| 0x05 | sub_36F08 | 直接复制帧数据 |
-| 0x06 | sub_36F24 | RLE 解码帧数据 (64000 字节) |
-| 0x07 | sub_36F69 | 像素点设置 |
-| 0x08 | sub_36F82 | RLE 像素填充 |
-| 0x09 | sub_36FAC | 多段复制 |
+| 명령 바이트 | 함수 | 설명 |
+|------------|------|------|
+| 0x00 | sub_36E3D | 팔레트 채우기 (192바이트) |
+| 0x01 | sub_36E57 | 직접 복사 (768바이트) |
+| 0x02 | sub_36E65 | 팔레트 RLE 디코딩 (768바이트) |
+| 0x03 | sub_36EA7 | 다중 구간 복사 |
+| 0x04 | sub_36EE0 | 전체 프레임 채우기 (64000바이트) |
+| 0x05 | sub_36F08 | 프레임 데이터 직접 복사 |
+| 0x06 | sub_36F24 | 프레임 데이터 RLE 디코딩 (64000바이트) |
+| 0x07 | sub_36F69 | 픽셀 점 설정 |
+| 0x08 | sub_36F82 | RLE 픽셀 채우기 |
+| 0x09 | sub_36FAC | 다중 구간 복사 |
 
-## 4. RLE 解码算法
+## 4. RLE 디코딩 알고리즘
 
-### 调色板 RLE (sub_36E65)
+### 팔레트 RLE (sub_36E65)
 
 ```c
 while (n768 != 768) {
     byte = *data++;
     if ((byte & 0xC0) == 0xC0) {
-        // RLE 模式: 高 2 位为 11
-        count = byte & 0x3F;  // 低 6 位是计数
-        value = *data++;      // 下一个字节是值
+        // RLE 모드: 상위 2비트가 11
+        count = byte & 0x3F;  // 하위 6비트가 카운트
+        value = *data++;      // 다음 바이트가 값
         for (i = count >> 1; i; --i)
             *palette++ = value;
         memset(palette, value, count & 1);
         n768 += count;
     } else {
-        // 直接模式
+        // 직접 모드
         *palette++ = byte;
         n768++;
     }
 }
 ```
 
-### 帧数据 RLE (sub_36F24)
+### 프레임 데이터 RLE (sub_36F24)
 
 ```c
 while (n64000 != 64000) {
     byte = *data++;
     if ((byte & 0xC0) == 0xC0) {
-        // RLE 模式
+        // RLE 모드
         count = byte & 0x3F;
         value = *data++;
         for (i = count >> 1; i; --i)
@@ -104,101 +104,101 @@ while (n64000 != 64000) {
         memset(frame, value, count & 1);
         n64000 += count;
     } else {
-        // 直接模式
+        // 직접 모드
         *frame++ = byte;
         n64000++;
     }
 }
 ```
 
-## 5. 完整加载流程
+## 5. 전체 로딩 흐름
 
 ```c
-// 1. 打开 ANI.DAT
+// 1. ANI.DAT 열기
 file = fopen("ANI.DAT", "rb");
 
-// 2. 定位到索引表
+// 2. 인덱스 테이블로 이동
 fseek(file, 4 * resource_index + 6, SEEK_SET);
 
-// 3. 读取资源偏移
+// 3. 리소스 오프셋 읽기
 fread(&offset, 4, 1, file);
 
-// 4. 定位到 AFM 数据
+// 4. AFM 데이터로 이동
 fseek(file, offset, SEEK_SET);
 
-// 5. 读取 AFM 头部 (173 字节)
+// 5. AFM 헤더 읽기 (173바이트)
 fread(header, 173, 1, file);
-frame_count = *(WORD*)(header + 165);  // 偏移 0xA5
+frame_count = *(WORD*)(header + 165);  // 오프셋 0xA5
 
-// 6. 初始化调色板缓冲区
+// 6. 팔레트 버퍼 초기화
 sub_36FD3(64000, video_buffer, palette_buffer);
 
-// 7. 循环读取每帧
+// 7. 프레임 반복 읽기
 for (i = 0; i < frame_count; i++) {
     fread(frame_header, 8, 1, file);
     fread(frame_data, frame_header[0], 1, file);
-    sub_36FF4(frame_header[1], frame_data);  // 解码帧
-    delay(frame_delay);                       // 延迟
+    sub_36FF4(frame_header[1], frame_data);  // 프레임 디코딩
+    delay(frame_delay);                       // 지연
 }
 
-// 8. 关闭文件
+// 8. 파일 닫기
 fclose(file);
 ```
 
-## 6. 关键函数地址
+## 6. 핵심 함수 주소
 
-| 地址 | 函数 | 说明 |
+| 주소 | 함수 | 설명 |
 |------|------|------|
-| 0x111BA | sub_111BA | DAT 文件通用加载函数 |
-| 0x20421 | sub_20421 | ANI.DAT 专用加载函数 |
-| 0x36FD3 | sub_36FD3 | 初始化缓冲区 |
-| 0x36FF4 | sub_36FF4 | 帧解码分发函数 |
+| 0x111BA | sub_111BA | DAT 파일 공통 로더 |
+| 0x20421 | sub_20421 | ANI.DAT 전용 로더 |
+| 0x36FD3 | sub_36FD3 | 버퍼 초기화 |
+| 0x36FF4 | sub_36FF4 | 프레임 디코딩 디스패처 |
 
-## 7. 内存布局
+## 7. 메모리 레이아웃
 
 ```
-n64000:  帧缓冲区大小 (64000 = 320x200)
-n655360: 视频内存地址 (0xA0000)
-buf:     调色板缓冲区 (768 字节)
+n64000:  프레임 버퍼 크기 (64000 = 320x200)
+n655360: 비디오 메모리 주소 (0xA0000)
+buf:     팔레트 버퍼 (768바이트)
 ```
 
-## 8. 与 FDOTHER.DAT 的区别
+## 8. FDOTHER.DAT와의 차이점
 
-| 特性 | ANI.DAT | FDOTHER.DAT |
+| 특성 | ANI.DAT | FDOTHER.DAT |
 |------|---------|-------------|
-| 索引大小 | 4 字节 | 8 字节 (start, end) |
-| 资源类型 | AFM 动画 | 混合资源 (调色板、图标等) |
-| 帧结构 | 多帧动画 | 单帧图像 |
-| 使用场景 | 游戏内动画 | 界面元素 |
+| 인덱스 크기 | 4바이트 | 8바이트 (start, end) |
+| 리소스 타입 | AFM 애니메이션 | 혼합 리소스 (팔레트, 아이콘 등) |
+| 프레임 구조 | 다중 프레임 애니메이션 | 단일 프레임 이미지 |
+| 사용 용도 | 게임 내 애니메이션 | UI 요소 |
 
-## 9. 示例代码
+## 9. 예제 코드
 
-### Python 解码器
+### Python 디코더
 
 ```python
 import struct
 
 def decode_ani_dat(filename, resource_index):
     with open(filename, 'rb') as f:
-        # 定位到索引表
+        # 인덱스 테이블로 이동
         f.seek(4 * resource_index + 6)
         offset = struct.unpack('<I', f.read(4))[0]
         
-        # 定位到 AFM 数据
+        # AFM 데이터로 이동
         f.seek(offset)
         
-        # 读取头部
+        # 헤더 읽기
         header = f.read(173)
         frame_count = struct.unpack('<H', header[165:167])[0]
         
         frames = []
         for _ in range(frame_count):
-            # 读取帧头
+            # 프레임 헤더 읽기
             frame_header = f.read(8)
             size = struct.unpack('<H', frame_header[0:2])[0]
             param = struct.unpack('<H', frame_header[2:4])[0]
             
-            # 读取帧数据
+            # 프레임 데이터 읽기
             data = f.read(size)
             frames.append((param, data))
         
@@ -220,13 +220,13 @@ def decode_rle(data, size):
     return bytes(result)
 ```
 
-## 10. 总结
+## 10. 요약
 
-ANI.DAT 使用嵌套的 AFM (Animation File Manager) 格式存储动画数据。每个 AFM 资源包含：
+ANI.DAT는 중첩된 AFM (Animation File Manager) 포맷으로 애니메이션 데이터를 저장합니다. 각 AFM 리소스는 다음을 포함합니다:
 
-1. 173 字节头部（包含版权信息和帧数）
-2. 多个帧，每帧有 8 字节头和编码数据
-3. 使用 RLE 压缩算法解码帧数据
-4. 帧数据通过命令字节分发到不同的解码函数
+1. 173바이트 헤더 (저작권 정보와 프레임 수 포함)
+2. 다수의 프레임 (각 프레임은 8바이트 헤더 + 인코딩된 데이터)
+3. RLE 압축 알고리즘으로 프레임 데이터 디코딩
+4. 명령 바이트로 각기 다른 디코딩 함수에 디스패치
 
-这种设计允许高效存储和播放动画序列，同时保持与 FD2 游戏引擎的兼容性。
+이 설계를 통해 애니메이션 시퀀스를 효율적으로 저장하고 재생하면서 FD2 게임 엔진과의 호환성을 유지합니다.
